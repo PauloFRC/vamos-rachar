@@ -91,8 +91,9 @@
             android:layout_marginEnd="16dp"
             android:clickable="true"
             android:onClick="clickFalar"
-            app:backgroundTint="#9C27B0"
+            app:backgroundTint="#FF0000"
             app:srcCompat="@drawable/baseline_volume_up_24"
+            android:contentDescription="Botão de fala"
             app:tint="@android:color/white"/>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -101,8 +102,9 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:onClick="shareTextValue"
-            app:backgroundTint="#9C27B0"
+            app:backgroundTint="#FF0000"
             app:srcCompat="?attr/actionModeShareDrawable"
+            android:contentDescription="Botão de compartilhar"
             app:tint="@android:color/white"/>
     </LinearLayout>
 
